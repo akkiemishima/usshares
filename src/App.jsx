@@ -261,6 +261,10 @@ export default function App() {
 
         {/* ── ページタイトル・説明 ── */}
         <div style={{padding:"24px 0 8px",textAlign:"center"}}>
+          <div style={{fontSize:16,fontWeight:700,color:C.text2,marginBottom:12,lineHeight:1.7,
+            background:C.cream2,borderRadius:14,padding:"12px 16px"}}>
+            20年前に米国株50社へ各1,000ドルずつ投資していたら？
+          </div>
           <h1 style={{fontSize:"clamp(24px,5vw,32px)",fontWeight:700,color:C.text,lineHeight:1.4,marginBottom:8}}>
             米国株ランダム投資<br/>
             <span style={{color:C.coral}}>モンテカルロ</span>・シミュレーター
@@ -631,6 +635,11 @@ export default function App() {
             borderRadius:12,padding:"14px 16px",marginTop:4}}>
             <p>※ 株価・買収価格は概算値。配当・税金・手数料は未考慮。</p>
             <p>※ S&P500再投資は買収年の指数比で計算。過去データに基づく参考値であり、将来の成果を保証するものではありません。</p>
+          </div>
+          <div style={{fontSize:13,fontWeight:700,color:C.text,lineHeight:1.9,background:C.cream2,
+            borderRadius:12,padding:"14px 16px",marginTop:8,textAlign:"center",
+            border:`1px solid ${C.cream3}`}}>
+            これは実在銘柄の過去データではなく、米国株リターン分布を近似したシミュレーションです。
           </div>
         </>)}
 
